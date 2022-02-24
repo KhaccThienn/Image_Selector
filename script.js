@@ -3,7 +3,7 @@ _changed = () => {
     var myimg = document.getElementById('img');
     switch (img_value) {
         case '1':
-            myimg.src = "../Data/yae_miko_1.jpg"
+            myimg.src = "../Data/yae_miko_1.jpg" // choose your picture, use relative path
             break;
         case '2':
             myimg.src = "../Data/yae_miko_2.jpg"
